@@ -14,7 +14,8 @@
         text-align: center;}
         h4{
         }
-        #page {
+        
+		#page {
             max-width: 940px;
             min-width: 720px;
             margin: 10px auto 10px auto;
@@ -27,6 +28,19 @@
             width: 150px;
             margin: 10px auto 25px auto;
         }
+
+		#contactInfo{
+            margin-top: 60px;
+			margin-right:20px;
+			text-align:right;
+			
+			
+			}
+		#projects{
+			margin-top: 100px;
+			max-width: 940px;
+		
+			}
 
         ul {
             width: 570px;
@@ -59,6 +73,11 @@
         text-transform: uppercase;
         text-decoration: none;
         padding: 6px 18px 5px 18px;}
+		
+		img.center {
+    display: block;
+    margin: 0 auto;
+}
         
         a:hover, a.on {
         color: #cc3333;
@@ -69,16 +88,47 @@
     <div id="page">
         <div id="logo">
         </div>
-        <h1> Mohammed T. Uddin</h1>
+			<h1> Mohammed T. Uddin</h1>
+			
+			<h3><center> Projects </center></h3>
     </div>
 
-<ul id="navigation">
-    <li><a href="#" class="on">Home</a></li>
-    <li><a href="#">Projects</a></li>
-</ul>
+
+		
+		<div id="projects">
+		
+			<p class="text">
+				<b>TicTacToe NxGen:</b>		Revolutionary way of playing Tic Tac Toe. Full Description and application coming to the Play Store Soon!
+				<img src="completedUITTT.PNG" alt="tttComb" style="width:700px;height:550px;">		 				
+				
+			</p>
+
+		</div>
+
+		
+		<div id="projects">
+		
+			<p class="text">
+				<b>Munchies:</b>		Munchies is a snack recommendation system. We use classification
+				 to correlate snack review data, which was provided by Amazon, to snack 
+				 Adjectives. Users enter their snack adjective selection in the auto-complete search bar,
+				 checkboxes, and/or the drop down menu's. Then, the User's input is sent to our server, the
+				 server feeds the input to our model built from classifiaction, the model returns snack 
+				 recommendations results to the android client, and the
+				 android client lastly displays the results to the user in list. The user can then click on any snack on
+				 the list and a dialog with more information of the snack appears.
+				 
+				<img src="completedUI.PNG" alt="munchies" style="width:1000px;height:550px;">		 				
+				
+			</p>
+
+		</div>
+		<div id="contactInfo">
         <p class="text">
-            <b>Phone</b>   (646)-525-8502<br />
-            <b>Email</b>   Mohammed.Uddin61@myhunter.cuny.edu
+            <b>Phone:</b>   (646)-525-8502<br />
+            <b>Email:</b>    Mohammed.Uddin61@myhunter.cuny.edu
         </p>
+</div>
+		
 </body>
 </html>
