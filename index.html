@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
     <title>Personal Website</title>
     <style type="text/css">
+
+
         body {
             font-size: 100%;
             font-family: "Courier New", Courier, monospace;
@@ -10,10 +12,10 @@
             background-color: #efefef;
         }
         h1 {
-    
-        text-align: center;}
-        h4{
-        }
+        text-align: center;
+    	}
+
+
         
 		#page {
             max-width: 940px;
@@ -36,10 +38,14 @@
 			
 			
 			}
+		#quote{
+			text-align: center;
+			margin-top: 100px;	
+		}
+
 		#projects{
 			margin-top: 100px;
 			max-width: 940px;
-		
 			}
 
         ul {
@@ -85,6 +91,8 @@
 </style>
 </head>
 <body>
+
+	<!-- custom divs declared in css-->
     <div id="page">
         <div id="logo">
         </div>
@@ -94,7 +102,19 @@
     </div>
 
 
-		
+<div id="quote">
+	
+		<p>
+		<i>
+			<blockquote cite="http://www.quotes-inspirational.com/albert-einstein.php">
+			He who can no longer pause to wonder and stand rapt in awe,
+			is as good as dead; his eyes are closed.<br/>
+			- Albert Einstein
+			</blockquote>
+		</i>
+		</p>
+
+</div>
 		<div id="projects">
 		
 			<p class="text">
@@ -123,12 +143,22 @@
 			</p>
 
 		</div>
+
 		<div id="contactInfo">
         <p class="text">
+        	<b>Contact Information</b><br/><br/>
             <b>Phone:</b>   (646)-525-8502<br />
             <b>Email:</b>    Mohammed.Uddin61@myhunter.cuny.edu
         </p>
-</div>
+
+        <code><br/>
+			var sight = camera.get("UserEyesCoordinates")<br/>
+			if(sight == contactInfo.coordinates)<br/>
+			admin.text("Someone's interested")
+		</code>
+		</div>
+
+		
 		
 </body>
 </html>
